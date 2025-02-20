@@ -27,7 +27,7 @@ book:
     - RAG-system.qmd
     - fine-tuning.qmd
     - prompting.qmd
-    - summary.qmd
+    - tavsiye.qmd
     - references.qmd
 
 bibliography: references.bib
