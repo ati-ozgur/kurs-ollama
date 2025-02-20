@@ -23,14 +23,40 @@ Ollama UI listesinin başında olan bu araçın özellikleri oldukça fazladır.
 ### Python 
 
 
+Opsiyonel olarak, paket çakışmalarını engellemek için, sanal ortam (virtual environment) oluşturun.
+
 ```bash
 python -m venv venv-open-webui
-
 ```
 
-python -m venv /path/to/new/virtual/environment
+Sanal ortamı aktive edin.
+
+Linux/Mac
+
+```bash
+source ./venv-open-webui/bin/activate
+```
+
+Windows
+
+```bash
+.\venv-open-webui\Scripts\activate.bat
+```
+
+
+Arkasından open-webui paketini kurun.
+
+```bash
 pip install open-webui
+```
+
+Aşağıdaki komut ile çalıştırın.
+
+```bash
 open-webui serve
+```
+
+
 
 
 ### Docker Open webui
