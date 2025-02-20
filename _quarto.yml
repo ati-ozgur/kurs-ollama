@@ -1,11 +1,14 @@
 project:
   type: book
-
+  preview:
+    port: 4201
+    browser: true
 book:
-  title: "kurs-ollama"
+  title: "Ollama Notları"
   author: "Atilla Özgür"
   date: today
   date-format: "YYYY-MM-DD"
+  cover-image: ollama-logo.png
   chapters:
     - index.qmd
     - intro.qmd
