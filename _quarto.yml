@@ -9,6 +9,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - ollama-json-api.qmd
     - summary.qmd
     - references.qmd
 

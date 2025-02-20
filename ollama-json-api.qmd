@@ -1,0 +1,48 @@
+# Ollama JSON API
+
+Ollama serve komutu ile arkaplan hizmeti başlatıyoruz
+
+```bash
+ollama serve
+```
+
+[Ollama API örnek ve dokumantasyonu](https://github.com/ollama/ollama/blob/main/docs/api.md)
+
+
+İlk örnekler için curl komutunu kullanacağız.
+Windows'ta aşağıdaki scoop komutu ile kurabilirsiniz.
+
+```bash
+scoop install curl
+```
+
+API sunum noktası varsayılan değerlerde: http://localhost:11434/api uç noktasıdır.
+
+API JSON nesneleri ile çağırılır.
+Çağrılabilecek
+
+```javascript
+{
+"model": "ds15", 
+"prompt": "What is your name?" 
+} 
+```
+
+
+En basit çağrıda sonuçlar bir akış (stream) olarak döndürülür.
+
+
+```bash
+curl http://localhost:11434/api/generate -d '{"model": "ds15", "prompt": "What is your name?" } '
+```
+
+Daha kolay olması için stream false ile çağıralım.
+
+```bash
+curl http://localhost:11434/api/generate -d '{"model": "ds15", "prompt": "What is your name?", "stream": false } '
+```
+
+
+```bash
+curl http://localhost:11434/api/chat -d '{"model": "ds15", "prompt": "What is your name?", "stream": false } '
+```
