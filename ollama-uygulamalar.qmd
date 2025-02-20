@@ -1,0 +1,5 @@
+# Ollama Uygulamaları
+
+
+
+{{< include diagrams/ollama-applications.md >}}

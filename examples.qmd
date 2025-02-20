@@ -28,12 +28,12 @@ daha fazla bilgi için [Bölüm -@sec-temeller-aciklamalar] bakınız.
 ![Note](images/image-name.png){width=4in}
 
 
-{{< include ../course-contents/tables/table-databases-history-tr.md >}}
+{{< include tables/table-databases-history-tr.md >}}
 
-{{< include ../course-contents/diagrams/database-client-server-en.md >}}
+{{< include diagrams/database-client-server-en.md >}}
 
 
-{{< include ../course-contents/dosyaadi.qmd >}}
+{{< include dosyaadi.qmd >}}
 
  {.unnumbered .unlisted}
  for no number in sections

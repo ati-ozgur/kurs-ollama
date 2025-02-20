@@ -46,3 +46,6 @@ curl http://localhost:11434/api/generate -d '{"model": "ds15", "prompt": "What i
 ```bash
 curl http://localhost:11434/api/chat -d '{"model": "ds15", "prompt": "What is your name?", "stream": false } '
 ```
+
+
+"format":"json"
