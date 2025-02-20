@@ -15,7 +15,7 @@ Bunu aşağıdaki betik ile yapabiliriz.
 [ollama-lmstudio-bridge](https://github.com/eelbaz/ollama-lmstudio-bridge)
 
 
-{{< include gollama.qmd >}}
+{{< include gollama.md >}}
 
 
 
