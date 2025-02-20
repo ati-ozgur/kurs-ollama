@@ -13,7 +13,7 @@ book:
     - index.qmd
     - intro.qmd
     - ollama-kurulum.qmd    
-    - ollama-modeller.qmd
+    - ollama-modeller-giris.qmd
     - ollama-uygulamalar.qmd
     - ollama-cli.qmd
     - ollama-UI-ornekler.qmd
