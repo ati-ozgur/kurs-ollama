@@ -1,0 +1,31 @@
+# Ollama Ortam Değişkenleri (environment variables)
+
+Liste aşağıdaki komut ile görülebilir.
+
+```bash
+OLLAMA_DEBUG=1 ollama serve
+```
+
+
+TODO: Aşağıdakileri bir tabloya çevir daha sonra
+
+
+OLLAMA_HOST
+if you are hosting in your own server
+
+OLLAMA_KEEP_ALIVE
+for chat models, model keep in memory, default 5 minutes, -1 to never unload model
+
+OLLAMA_GPU_OVERHEAD
+
+OLLAMA_MAX_LOADED_MODELS
+
+OLLAMA_MODELS:/mnt/TOSHIBA2T/LLM/LLM-Models
+where to store
+
+OLLAMA_MULTIUSER_CACHE
+
+changing it different according to if you use services (systemctl) or not
+
+
+
