@@ -1,0 +1,6 @@
+# lang chain
+
+
+7. use LangChain
+https://python.langchain.com/docs/integrations/llms/ollama/
+https://python.langchain.com/docs/integrations/providers/ollama/
