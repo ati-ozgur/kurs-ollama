@@ -9,10 +9,12 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - ollama-modeller.qmd
     - ollama-uygulamalar.qmd
     - ollama-cli.qmd
     - ollama-UI-ornekler.qmd
     - ollama-json-api.qmd
+    - prompting.qmd
     - summary.qmd
     - references.qmd
 

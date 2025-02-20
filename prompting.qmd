@@ -1,0 +1,22 @@
+# Prompting Süfle verme
+
+## Sıfır atış (Zero shot)
+
+
+
+## Örneklerle süfle (Few shot)
+
+
+```text
+Tarihleri YYYY-AA-GG biçimine dönüştürün:
+
+Giriş: 15 Mart 2024
+Çıktı: 2024-0-15
+
+Giriş: 1 Aralık 2023
+Çıktı: 2023-12-01
+
+Giriş: 7 Nisan 2024
+Çıktı: [Bunu dönüştürme sırası sizde]
+```
+
