@@ -1,5 +1,10 @@
 # Prompting Süfle verme
 
+
+- explicit
+- Persona
+
+
 ## Sıfır atış (Zero shot)
 
 
@@ -19,4 +24,14 @@ Giriş: 1 Aralık 2023
 Giriş: 7 Nisan 2024
 Çıktı: [Bunu dönüştürme sırası sizde]
 ```
+
+
+## Düşünce zinciri (chain of thought)
+
+- adım adım düşünelim
+- önce tüm alt problemleri düşünelim
+
+
+
+Sonuçta teknikleri öğrenince göreceksiniz ki çoğunluğu sağduyu aslında.
 
