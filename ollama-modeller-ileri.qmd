@@ -1,5 +1,11 @@
 # Ollama Modeller ileri seviye
 
+## Model Dizini
+
+Modeller için dizini değiştir
+
+
+
 
 ## Hafıza kontrol
 
