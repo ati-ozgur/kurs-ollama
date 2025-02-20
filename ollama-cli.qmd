@@ -2,6 +2,7 @@
 
 {{< include tables/table-ollama-cli-commands.md >}}
 
+{{< include  ollama-cli-help.md >}}
 {{< include  ollama-cli-serve.md >}}
 {{< include  ollama-cli-list.qmd >}}
 {{< include  ollama-cli-pull.md >}}
@@ -13,7 +14,6 @@
 {{< include  ollama-cli-cp.md >}}
 {{< include  ollama-cli-create.md >}}
 {{< include  ollama-cli-push.md >}}
-{{< include  ollama-cli-help.md >}}
 
 
 
