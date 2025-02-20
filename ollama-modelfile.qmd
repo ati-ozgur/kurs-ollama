@@ -1,6 +1,13 @@
 # Ollama Model dosyası (Modelfile)
 
+[Ollama model dosyası yardımı](https://github.com/ollama/ollama/blob/main/docs/modelfile.md)
 
+Model dosyası genel olarak aşağıdakileri içerir.
+
+- system prompt
+- template
+- parameters (optional)
+- an adapter (optional)
 
 
 ```text
@@ -13,3 +20,15 @@ ollama create sohbet -f ./modelfiles/ModelfileDeepseek1.txt
 ```
 
 
+
+
+hugging face gguf
+use this model ollama
+
+https://github.com/ollama/ollama/blob/main/docs/import.md
+
+quantization here also
+
+## Diğer öğreticiler
+
+- https://youtu.be/6PaKj291r8s
