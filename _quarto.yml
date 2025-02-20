@@ -18,7 +18,7 @@ book:
     - ollama-cli.qmd
     - ollama-UI-ornekler.qmd
     - ollama-image.qmd
-    - ollama-json-api.qmd
+    - ollama-api-json.qmd
     - prompting.qmd
     - summary.qmd
     - references.qmd
