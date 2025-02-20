@@ -30,6 +30,15 @@ ollama run phi
 ollama run deepseek-r1:1.5b
 ```
 
+- [qwen2.4 0.5b](https://ollama.com/library/qwen2.5:0.5b)
+
+
+```bash
+ollama run qwen2.5:0.5b
+```
+
+[qwen 2.5 blog yazısı](https://qwenlm.github.io/blog/qwen2.5-vl/)
+
 
 ## Model kopyalama
 
