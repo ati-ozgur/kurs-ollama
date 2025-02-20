@@ -1,5 +1,16 @@
-# Tavsiye edilen dersler, vidyolar, web sayfaları
+# Tavsiyeler 
 
-- <>
+## Tavsiye Edilen diğer dersler, vidyolar, web sayfaları
 
-In summary, this book has no content whatsoever.
+- Bu 3 saatlik [Ollama Course – Build AI Apps Locally](https://youtu.be/GWB9ApTPTv4)
+Ekteki bağlantıda [Ollama kurs örnek kodları](https://github.com/pdichone/ollama-fundamentals) görebilirsiniz.
+
+
+
+Ollama ekibinde eskiden çalışmış olan Matt Williams'ın aşağıdaki 2 listesi.
+Kanalında bu listede olmayan ama Ollama ile ilgili yine güzel vidyolar var.
+
+- [The Ollama Course: Basics](https://www.youtube.com/playlist?list=PLvsHpqLkpw0fIT-WbjY-xBRxTftjwiTLB)
+
+- [The Ollama Course: Advanced](https://www.youtube.com/playlist?list=PLvsHpqLkpw0f8YFdnxVCId7FwIOoqkne5)
+
