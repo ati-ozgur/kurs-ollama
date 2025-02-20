@@ -1,3 +1,20 @@
 ## LM Studio
 
+LM studio modelleri kendi indiren ve kendi mantığına göre çalışan bir araç.
+
+[Kurulum dosyasını](https://lmstudio.ai/) işletim sistemine göre indirin.
+
+
+![LM Studio ekran görüntüsü](images/screenshot-open-webui.png){width=800}
+
+
+
+Ollama modelleri LM studio'nun kullandığı modellere çevrilebilir.
+Bunu aşağıdaki betik ile yapabiliriz.
+
+[ollama-lmstudio-bridge](https://github.com/eelbaz/ollama-lmstudio-bridge)
+
+
+
+
 
