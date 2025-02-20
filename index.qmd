@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-[Youtube YAŞLI YAZILMCI Ollama çalma listesi](https://www.youtube.com/playlist?list=PLNNtKurEDuH85lkiB8OXCznEA9DSBdEES) için oluşturulmuş notlardır.
+[Youtube YAŞLI YAZILIMCI Ollama çalma listesi](https://www.youtube.com/playlist?list=PLNNtKurEDuH85lkiB8OXCznEA9DSBdEES) için oluşturulmuş notlardır.
 
 
 Quarto ile oluşturulmuştur.
