@@ -1,5 +1,28 @@
 ## Open webui
 
+[Github open webui deposu](https://github.com/open-webui/open-webui)
+
+- backend FastAPI
+- frontend svelte
+
+
+[NVDIA container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) kurmam gerekti.
+
+
+Arkasından aşağıdaki komut ile çalıştırabiliyoruz.
+
+
+```bash
+docker run -d --gpus all --net=host -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda 
+```
+
+Komut açıklaması
+
+--net=host , çalıştığı makine ile ağ paylaşımı. Bu sayede ollama'ya erişim yapabiliyoruz.
+-v volume ataması yapıyor bu sayede docker stop, run yapılsa bile veriler saklanıyor.
+
+docker exec -it containerid bash 
+
 
 
 
