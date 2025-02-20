@@ -1,3 +1,31 @@
 # Ollama kurulum
 
+<https://ollama.com/download> sayfasından işletim sisteminize göre kurulum yapabilirsiniz.
 
+
+## Windows
+
+[Scoop](https://scoop.sh/#/apps?q=ollama) ile kurulum yapmanızı tavsiye ederim.
+
+
+Windows servis olmadan kurulum
+
+```bash
+scoop install main/ollama
+```
+
+Windows servis ile kurulum
+
+```bash
+scoop install extras/ollama-full
+```
+
+
+## Linux
+
+Omakub kullanıyorsanız, omakub menüsünden kurabilirsiniz.
+Diğer durumda, <https://ollama.com/download/linux> sayfasındaki aşağıdaki betiği çalıştırın.
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
