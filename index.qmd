@@ -3,5 +3,8 @@
 [Youtube YAŞLI YAZILIMCI Ollama çalma listesi](https://www.youtube.com/playlist?list=PLNNtKurEDuH85lkiB8OXCznEA9DSBdEES) için oluşturulmuş notlardır.
 
 
+
+Ollama açık kaynak kodlu @Ollama2025Ollama, büyük dil modellerini yerel bilgisayarınızda çalıştıran  bir yazılımdır.
+
 Quarto ile oluşturulmuştur.
 <https://quarto.org/docs/books>.
