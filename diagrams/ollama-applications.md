@@ -11,7 +11,7 @@ flowchart LR
     O --> A(API JSON)
     A --> P(Python)
     A --> JS(Javascript)
-    A --> PL(JSON çağrısı yapabilen herhangi bir dil)
+    A --> PL(JSON/REST çağrısı yapabilen herhangi bir dil)
 
     style O fill:#f96
 ```
