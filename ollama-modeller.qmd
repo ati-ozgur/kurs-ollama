@@ -1,0 +1,10 @@
+# Ollama Modeller
+
+## Modellere giriş
+
+
+https://ollama.com/search?q=phi
+
+pull & run
+
+
