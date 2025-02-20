@@ -3,8 +3,9 @@ project:
 
 book:
   title: "kurs-ollama"
-  author: "Norah Jones"
-  date: "2/20/2025"
+  author: "Atilla Özgür"
+  date: today
+  date-format: "YYYY-MM-DD"
   chapters:
     - index.qmd
     - intro.qmd
