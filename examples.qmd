@@ -1,0 +1,59 @@
+## examples to use while writing book
+
+export QUARTO_CHROMIUM_HEADLESS_MODE=none
+
+
+```sql
+SELECT * FROM Product;
+```
+```sql
+{{< include source/a.sql >}}
+```
+
+
+A4 paper size
+A4 size     210 x 297 mm    8.3 x 11.7 in
+
+
+# Temeller Açıklamalar (Comments)  {#sec-temeller-aciklamalar}
+
+daha fazla bilgi için [Bölüm -@sec-temeller-aciklamalar] bakınız.
+
+
+
+
+![Note](images/image-name.png)
+![Note](images/image-name.png){width=300}
+![Note](images/image-name.png){width=80%}
+![Note](images/image-name.png){width=4in}
+
+
+{{< include ../course-contents/tables/table-databases-history-tr.md >}}
+
+{{< include ../course-contents/diagrams/database-client-server-en.md >}}
+
+
+{{< include ../course-contents/dosyaadi.qmd >}}
+
+ {.unnumbered .unlisted}
+ for no number in sections
+
+```java
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+```
+
+:::{.callout-tip}
+import komutuna neden ihtiyacımız olduğu hakkında daha fazla bilgi için [Bölüm -@sec-temeller-import] okuyabilirsiniz.
+:::
+
+https://quarto.org/docs/authoring/callouts.html
+
+Note that there are five types of callouts, including: note, tip, warning, caution, and important.
+
+
+
+
+:::{.callout-tip}
+Yapmanız istenen fonksiyon çıkarma kurgulaması hakkında daha fazla bilgi ve örnekler için  [Bölüm -@sec-tr-kurgulamalar-refactorings-fonksiyon-cikarma-extract-function] okuyabilirsiniz.
+:::
+
