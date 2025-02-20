@@ -1,8 +1,6 @@
 # Prompting Süfle verme
 
 
-- explicit
-- Persona
 
 
 ## Sıfır atış (Zero shot)
@@ -31,7 +29,15 @@ Giriş: 7 Nisan 2024
 - adım adım düşünelim
 - önce tüm alt problemleri düşünelim
 
+## Tree of Thought
 
 
 Sonuçta teknikleri öğrenince göreceksiniz ki çoğunluğu sağduyu aslında.
 
+
+## Rol süfle
+
+- explicit
+- Persona
+
+act as senior developer
