@@ -1,10 +1,39 @@
 ## Open webui
 
+Ollama UI listesinin başında olan bu araçın özellikleri oldukça fazladır.
+
+- Ollama/OpenAI API Integration
+- Granular Permissions and User Groups
+- Responsive Design
+- Progressive Web App (PWA) for Mobile
+- Full Markdown and LaTeX Support
+- Native Python Function Calling Tool
+- Local RAG Integration
+- Web Search for RAG
+- Web Browsing Capability
+- Image Generation Integration (Local ComfyUI)
+
+
 [Github open webui deposu](https://github.com/open-webui/open-webui)
 
 - backend FastAPI
 - frontend svelte
 
+
+### Python 
+
+
+```bash
+python -m venv venv-open-webui
+
+```
+
+python -m venv /path/to/new/virtual/environment
+pip install open-webui
+open-webui serve
+
+
+### Docker Open webui
 
 [NVDIA container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) kurmam gerekti.
 
