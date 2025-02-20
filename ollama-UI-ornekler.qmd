@@ -1,0 +1,9 @@
+# Ollama Kullanıcı Arayüzleri 
+
+[Github ollama sayfasında](https://github.com/ollama/ollama#web--desktop), 2025 Şubat tarihi ile 110 tane web ve masaüstü kullanıcı arayüzü vardır.
+
+## open webui
+
+
+- Msty not free
+- lm-studio

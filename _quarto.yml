@@ -10,6 +10,7 @@ book:
     - index.qmd
     - intro.qmd
     - ollama-uygulamalar.qmd
+    - ollama-UI-ornekler.qmd
     - ollama-json-api.qmd
     - summary.qmd
     - references.qmd
