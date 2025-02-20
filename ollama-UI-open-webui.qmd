@@ -94,7 +94,7 @@ Komut açıklaması
 5. resim ekle
 
 
-## Diğer öğreticiler
+### Open webui için diğer öğreticiler
 
 - [Is Open Webui The Ultimate Ollama Frontend Choice?](https://www.youtube.com/watch?v=16fWf0VVeIo)
 
