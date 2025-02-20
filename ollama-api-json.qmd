@@ -6,6 +6,10 @@ Ollama serve komutu ile arkaplan hizmeti başlatıyoruz
 ollama serve
 ```
 
+http://localhost:11434/
+
+
+
 [Ollama API örnek ve dokumantasyonu](https://github.com/ollama/ollama/blob/main/docs/api.md)
 
 

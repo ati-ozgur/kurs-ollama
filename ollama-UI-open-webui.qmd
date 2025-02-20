@@ -14,6 +14,9 @@ Ollama UI listesinin başında olan bu araçın özellikleri oldukça fazladır.
 - Image Generation Integration (Local ComfyUI)
 
 
+![open webui ekran görüntüsü](images/screenshot-open-webui.png){width=800}
+
+
 [Github open webui deposu](https://github.com/open-webui/open-webui)
 
 - backend FastAPI
@@ -56,7 +59,7 @@ Aşağıdaki komut ile çalıştırın.
 open-webui serve
 ```
 
-
+Bu kullanımda çok fazla dosya indiriliyor ve docker kullanımından daha zor.
 
 
 ### Docker Open webui
@@ -82,9 +85,12 @@ Komut açıklaması
 
 **Demo**
 
-1. chat
-2. dokuman upload
-
+1. Giriş
+2. Settings ollama json api uç noktası ekle
+3. chat
+4. dokuman upload
+5. resim ekle
+6. 
 
 
 ## Diğer öğreticiler
