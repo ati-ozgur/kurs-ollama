@@ -1,0 +1,15 @@
+# Ollama Model dosyası (Modelfile)
+
+
+
+
+```text
+{{< include modelfiles/ModelfileDeepseek1.txt >}}
+```
+
+
+```bash
+ollama create sohbet -f ./modelfiles/ModelfileDeepseek1.txt
+```
+
+
