@@ -1,1 +1,10 @@
-# model parametreleri
+# Model parametreleri
+
+{{< include token.md >}}
+
+{{< include context-length.md >}}
+
+
+
+
+

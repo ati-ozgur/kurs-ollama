@@ -49,3 +49,7 @@ curl http://localhost:11434/api/chat -d '{"model": "ds15", "prompt": "What is yo
 
 
 "format":"json"
+
+
+{{< include ollama-api-generate-vs-chat.md >}}
+
