@@ -1,5 +1,7 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+[Youtube YAŞLI YAZILMCI Ollama çalma listesi](https://www.youtube.com/playlist?list=PLNNtKurEDuH85lkiB8OXCznEA9DSBdEES) için oluşturulmuş notlardır.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+Quarto ile oluşturulmuştur.
+<https://quarto.org/docs/books>.
