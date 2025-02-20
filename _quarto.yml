@@ -17,6 +17,7 @@ book:
     - ollama-uygulamalar.qmd
     - ollama-cli.qmd
     - ollama-UI-ornekler.qmd
+    - ollama-image.qmd
     - ollama-json-api.qmd
     - prompting.qmd
     - summary.qmd

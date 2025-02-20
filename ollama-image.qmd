@@ -1,0 +1,19 @@
+# Ollama Resim veya çok modlu çalışma
+
+
+## Ollama Image (LLava)
+
+- use Ollama with image and text
+
+
+```bash
+what is this image image.png
+write a short poem about that
+tell me about this image
+```
+
+```bash
+bu resim nedir resim.png
+bunun hakkında kısa bir şiir yaz
+bana bu resimden bahset
+```
