@@ -1,7 +1,7 @@
 ```{mermaid}
 %%| fig-width: 2
 flowchart LR
-    O[Ollama] --> C(CLI)
+    O[Ollama] --> C(CLI Komut Satırı)
     O --> UI(UI)
     UI --> UI1[Open WebUI]
     UI --> UI2[Ollama UI]
