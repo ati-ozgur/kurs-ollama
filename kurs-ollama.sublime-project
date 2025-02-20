@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+    		"folder_exclude_patterns": ["_book"
+    			, ".quarto"
+    			, "presentations/*_files"
+    			, "_site"
+
+    		],
+    		"file_exclude_patterns": [
+    			 "*.html"
+
+    		],  			
+		}
+	]
+}
