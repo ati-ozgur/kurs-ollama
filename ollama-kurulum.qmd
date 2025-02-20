@@ -24,6 +24,8 @@ scoop install extras/ollama-full
 ## Linux
 
 Omakub kullanıyorsanız, omakub menüsünden kurabilirsiniz.
+[Omakub](https://github.com/basecamp/omakub/blob/master/install/terminal/optional/app-ollama.sh)'ta aşağıdaki betiği çalıştırıyor.
+
 Diğer durumda, <https://ollama.com/download/linux> sayfasındaki aşağıdaki betiği çalıştırın.
 
 ```bash
