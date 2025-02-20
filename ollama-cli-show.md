@@ -1,0 +1,1 @@
+## show: Model bilgisi gösterme
