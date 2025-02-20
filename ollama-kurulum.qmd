@@ -29,3 +29,9 @@ Diğer durumda, <https://ollama.com/download/linux> sayfasındaki aşağıdaki b
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+
+
+## Macintosh
+
+<https://ollama.com/download/mac> sayfasından ilgili programı indirin ve normal mac programı olarak kurun.
+
