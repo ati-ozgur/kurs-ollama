@@ -5,5 +5,37 @@
 ## open webui
 
 
-- Msty not free
-- lm-studio
+
+## LM Studio
+
+
+## gpt4all
+
+- https://github.com/nomic-ai/gpt4all
+- https://gpt4all.io/index.html
+MIT License
+
+
+## AI-Studio
+
+https://github.com/MindWorkAI/AI-Studio
+MIT License
+
+## Chat LLM
+
+https://github.com/sugarforever/chat-ollama
+
+
+## Basit OLLAMA UI
+
+
+Buna benzeyen bir şeyi VanillaJS ile yapılabilir.
+https://github.com/ollama-ui/ollama-ui/tree/main
+
+
+## Msty
+
+Açık kaynak değil
+
+
+

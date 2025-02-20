@@ -65,3 +65,16 @@ du -h
 
 --format
 --keepalive
+
+
+## Show Info
+
+
+/show info
+
+- architecture        
+- parameters          
+- context length      
+- embedding length    
+- quantization        
+
