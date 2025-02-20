@@ -23,7 +23,7 @@ Ollama UI listesinin başında olan bu araçın özellikleri oldukça fazladır.
 - frontend svelte
 
 
-### Python 
+### Python paket ile open-webui kurulum
 
 
 Opsiyonel olarak, paket çakışmalarını engellemek için, sanal ortam (virtual environment) oluşturun.
@@ -62,7 +62,7 @@ open-webui serve
 Bu kullanımda çok fazla dosya indiriliyor ve docker kullanımından daha zor.
 
 
-### Docker Open webui
+### Docker Open webui kullanımı
 
 [NVDIA container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) kurmam gerekti.
 
