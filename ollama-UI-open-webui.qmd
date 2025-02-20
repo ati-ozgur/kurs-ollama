@@ -25,6 +25,19 @@ Komut açıklaması
 - bu sayede docker stop, run yapılsa bile veriler saklanıyor.
 
 
+**Demo**
+
+1. chat
+2. dokuman upload
+
+
+
+## Diğer öğreticiler
+
+- [Is Open Webui The Ultimate Ollama Frontend Choice?](https://www.youtube.com/watch?v=16fWf0VVeIo)
+
+- [Getting Started with Ollama and Web UI](https://www.youtube.com/watch?v=BzFafshQkWw)
+
 
 
 

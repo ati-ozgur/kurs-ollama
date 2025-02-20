@@ -1,5 +1,17 @@
 # hugging face modellerini kullanma
 
+https://huggingface.co/models?library=gguf&sort=trending
+
+
+https://huggingface.co/dkp2701/conversation_summarizer_v2
+
+
+```bash
+ollama run hf.co/dkp2701/conversation_summarizer_v2
+```
+
+
+
 
 hfdownloader
 hugging face downloader
@@ -15,3 +27,8 @@ In Modelfile
 FROM models/filename.gguf
 
 https://gcptutorials.com/post/run-hugging-face-models-locally-with-ollama-step-by-step-python-guide
+
+## Diğer öğreticiler
+
+- [Unlock the Power of AI with Ollama and Hugging Face](https://www.youtube.com/watch?v=LQJVz-B_mZI)
+
