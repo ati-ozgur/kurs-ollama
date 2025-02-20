@@ -3,10 +3,45 @@
 {{< include tables/table-ollama-cli-commands.md >}}
 
 
-## Copy
+## Serve 
 
-create a reference copy (virtual link like), not filecopy
+
+```bash
+ollama serve --help
+```
+
+
+```bash
+OLLAMA_DEBUG=1 ollama serve
+```
+
+- OLLAMA_HOST : sunucu ismi
+- OLLAMA_MODELS : Modellerin saklandığı dizin
+- OLLAMA_MAX_LOADED_MODELS : Kaç tane model yükleniyor
+- OLLAMA_MAX_QUEUE : Max istek sayısı
+
+
+
+## Copy: Model kopyalama
+
+
+
+```bash
+ollama cp deepseek-r1:1.5b ds15
+```
+
+Bu komut model ağırlık dosyalarını kopyalamaz.
+Docker mantığında bir sanal yeni model manifestosu yaratır.
+Ama asıl büyük dosyalar olan ağırlık dosyaları kopyalanmaz.
+
+
+```bash
+cd $OLLAMA_MODELS
+tree
+du -h
+```
 
 
 ## Push
-create Ollama account and push your models like docker
+
+Ollama hesabı oluşturun ve modellerinizi docker gibi yayınlayın
