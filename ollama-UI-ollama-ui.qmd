@@ -1,0 +1,8 @@
+## Ollama UI
+
+
+Basit ollama ui
+https://github.com/ollama-ui/ollama-ui/tree/main
+
+
+Buna benzeyen bir şeyi VanillaJS ile yapılabilir.

@@ -1,0 +1,5 @@
+## AI-Studio
+
+https://github.com/MindWorkAI/AI-Studio
+MIT License
+

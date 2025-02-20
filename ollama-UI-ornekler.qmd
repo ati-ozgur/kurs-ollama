@@ -2,40 +2,16 @@
 
 [Github ollama sayfasında](https://github.com/ollama/ollama#web--desktop), 2025 Şubat tarihi ile 110 tane web ve masaüstü kullanıcı arayüzü vardır.
 
-## open webui
 
 
+{{< include ollama-UI-open-webui.qmd >}}
+{{< include ollama-UI-lm-studio.qmd >}}
+{{< include ollama-UI-gpt4all.qmd >}}
+{{< include ollama-UI-ai-studio.qmd >}}
+{{< include ollama-UI-chat-ollama.qmd >}}
+{{< include ollama-UI-ollama-ui.qmd >}}
+{{< include ollama-UI-msty.qmd >}}
 
-## LM Studio
-
-
-## gpt4all
-
-- https://github.com/nomic-ai/gpt4all
-- https://gpt4all.io/index.html
-MIT License
-
-
-## AI-Studio
-
-https://github.com/MindWorkAI/AI-Studio
-MIT License
-
-## Chat LLM
-
-https://github.com/sugarforever/chat-ollama
-
-
-## Basit OLLAMA UI
-
-
-Buna benzeyen bir şeyi VanillaJS ile yapılabilir.
-https://github.com/ollama-ui/ollama-ui/tree/main
-
-
-## Msty
-
-Açık kaynak değil
 
 
 
