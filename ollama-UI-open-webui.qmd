@@ -13,15 +13,18 @@ Arkasından aşağıdaki komut ile çalıştırabiliyoruz.
 
 
 ```bash
-docker run -d --gpus all --net=host -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda 
+docker run --detach --gpus all --net=host -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda 
 ```
 
 Komut açıklaması
 
---net=host , çalıştığı makine ile ağ paylaşımı. Bu sayede ollama'ya erişim yapabiliyoruz.
--v volume ataması yapıyor bu sayede docker stop, run yapılsa bile veriler saklanıyor.
+- --detach arka planda çalıştır
+- --net=host , çalıştığı makine ile ağ paylaşımı. 
+- Bu sayede ollama'ya erişim yapabiliyoruz.
+- -v volume ataması yapıyor 
+- bu sayede docker stop, run yapılsa bile veriler saklanıyor.
 
-docker exec -it containerid bash 
+
 
 
 
