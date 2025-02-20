@@ -1,4 +1,4 @@
-## RM: Model Silme
+## rm: Model Silme
 
 ```bash
 ollama rm model-adi
