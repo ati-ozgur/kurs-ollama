@@ -1,0 +1,12 @@
+# Ollama Modeller ileri seviye
+
+
+## Hafıza kontrol
+
+
+nvtop
+sudo apt install nvtop
+nvtop
+
+
+

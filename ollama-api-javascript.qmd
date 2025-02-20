@@ -1,4 +1,4 @@
-# Ollama javascript API
+# Ollama JavaScript API
 
 https://github.com/ollama/ollama-js
 
