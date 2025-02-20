@@ -1,6 +1,6 @@
-# Ollama Ortam Değişkenleri (environment variables)
+# Ollama Ortam Değişkenleri
 
-Liste aşağıdaki komut ile görülebilir.
+Ollama'nın desteklediği ortam değişkenleri (environment variables) listesi aşağıdaki komut ile görülebilir.
 
 ```bash
 OLLAMA_DEBUG=1 ollama serve

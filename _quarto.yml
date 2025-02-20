@@ -17,8 +17,12 @@ book:
     - ollama-uygulamalar.qmd
     - ollama-cli.qmd
     - ollama-UI-ornekler.qmd
+    - model-parameters.qmd
+    - ollama-environment-variables.qmd
     - ollama-image.qmd
     - ollama-api-json.qmd
+    - hugging-face.qmd
+    - ollama-modelfile.qmd
     - RAG-system.qmd
     - fine-tuning.qmd
     - prompting.qmd
