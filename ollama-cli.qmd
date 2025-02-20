@@ -1,3 +1,12 @@
 # Ollama CLI Komut Satırı
 
 {{< include tables/table-ollama-cli-commands.md >}}
+
+
+## Copy
+
+create a reference copy (virtual link like), not filecopy
+
+
+## Push
+create Ollama account and push your models like docker

@@ -36,5 +36,7 @@ ollama run deepseek-r1:1.5b
 - pull modeli kütükten çeker ama çalıştırmaz.
 - run modeli eğer yerelde yoksa kütükten çeker arkasından çalıştırır.
 
+## Run Parametreler
 
-
+--format
+--keepalive

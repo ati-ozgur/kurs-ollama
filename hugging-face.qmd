@@ -1,0 +1,17 @@
+# hugging face modellerini kullanma
+
+
+hfdownloader
+hugging face downloader
+https://github.com/bodaay/HuggingFaceModelDownloader
+
+
+ollama create modelname -f ./Modelfile -q Q4_0
+
+https://huggingface.co/docs/hub/ollama
+https://otmaneboughaba.com/posts/local-llm-ollama-huggingface/
+
+In Modelfile
+FROM models/filename.gguf
+
+https://gcptutorials.com/post/run-hugging-face-models-locally-with-ollama-step-by-step-python-guide

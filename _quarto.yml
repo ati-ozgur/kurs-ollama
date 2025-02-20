@@ -19,6 +19,8 @@ book:
     - ollama-UI-ornekler.qmd
     - ollama-image.qmd
     - ollama-api-json.qmd
+    - RAG-system.qmd
+    - fine-tuning.qmd
     - prompting.qmd
     - summary.qmd
     - references.qmd
