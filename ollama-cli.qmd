@@ -1,0 +1,3 @@
+# Ollama CLI Komut Satırı
+
+{{< include tables/table-ollama-cli-commands.md >}}
