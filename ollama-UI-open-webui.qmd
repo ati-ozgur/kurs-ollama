@@ -87,10 +87,11 @@ Komut açıklaması
 
 1. Giriş
 2. Settings ollama json api uç noktası ekle
-3. chat
+3. Model seçme
+4. chat
+5. chat rename
 4. dokuman upload
 5. resim ekle
-6. 
 
 
 ## Diğer öğreticiler

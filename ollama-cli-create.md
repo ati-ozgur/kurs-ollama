@@ -1,10 +1,10 @@
 ## Create: Yeni model oluştur.
 
 
-1. Model dosyasından yeni bir model oluşturmada kullanılır.
+Model dosyasından yeni bir model oluşturmada kullanılır.
 
 
-```text
+```bash
 {{< include modelfiles/ModelfileDeepseek1.txt >}}
 ```
 

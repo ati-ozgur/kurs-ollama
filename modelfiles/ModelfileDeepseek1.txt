@@ -1,9 +1,11 @@
 FROM deepseek-r1:1.5b
 
-# sıcaklığı (temperature) ayarlama [daha yüksek daha yaratıcı, daha düşük daha tutarlı]
+# sıcaklığı (temperature) ayarlama 
+# [daha yüksek daha yaratıcı, daha düşük daha tutarlı]
 
 PARAMETER temperature 0.3
 
 SYSTEM """
-    You are Sohbet, a very smart human resources assistant who answers questions succinctly and informatively.
+    You are Sohbet, a very smart human resources assistant 
+    who answers questions succinctly and informatively.
 """
