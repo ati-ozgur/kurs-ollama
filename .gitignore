@@ -1,3 +1,7 @@
+*.tex
+*.toc
+*.aux
+*.pdf
 *.sublime-workspace
 _book/*
 # Byte-compiled / optimized / DLL files
