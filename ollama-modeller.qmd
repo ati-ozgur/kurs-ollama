@@ -2,9 +2,39 @@
 
 ## Modellere giriş
 
+Modelleri [ollama web sayfasından](https://ollama.com/) arayabiliriz
+Ne yazık ki sıralama özellikleri çok iyi değil.
 
-https://ollama.com/search?q=phi
+Biz öğrenme amaçlı olarak çalıştığımız için bizim için [küçük modeller](https://ollama.com/search?q=small) daha anlamlı olacaktır.
+Hem daha hızlı indirilir hemde hafızada çok yer tutmazlar.
 
-pull & run
+Başlangıç için Microsoft Phi 
+
+Aşağıdaki modeller bu tanıma uyuyor.
+
+- [llama3.2:1b](https://ollama.com/library/llama3.2:1b)
+
+```bash
+ollama run llama3.2:1b
+```
+
+- [phi](https://ollama.com/library/phi)
+
+```bash
+ollama run phi
+```
+
+
+- [deepseek-r1:1.5b](https://ollama.com/library/deepseek-r1:1.5b)
+
+```bash
+ollama run deepseek-r1:1.5b
+```
+
+## Pull vs Run
+
+- pull modeli kütükten çeker ama çalıştırmaz.
+- run modeli eğer yerelde yoksa kütükten çeker arkasından çalıştırır.
+
 
 
