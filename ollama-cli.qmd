@@ -2,23 +2,19 @@
 
 {{< include tables/table-ollama-cli-commands.md >}}
 
+{{< include  ollama-cli-serve.md >}}
+{{< include  ollama-cli-list.md >}}
+{{< include  ollama-cli-pull.md >}}
+{{< include  ollama-cli-run.md >}}
+{{< include  ollama-cli-stop.md >}}
+{{< include  ollama-cli-rm.md >}}
+{{< include  ollama-cli-ps.md >}}
+{{< include  ollama-cli-show.md >}}
+{{< include  ollama-cli-cp.md >}}
+{{< include  ollama-cli-create.md >}}
+{{< include  ollama-cli-push.md >}}
+{{< include  ollama-cli-help.md >}}
 
-## Serve 
-
-
-```bash
-ollama serve --help
-```
-
-
-```bash
-OLLAMA_DEBUG=1 ollama serve
-```
-
-- OLLAMA_HOST : sunucu ismi
-- OLLAMA_MODELS : Modellerin saklandığı dizin
-- OLLAMA_MAX_LOADED_MODELS : Kaç tane model yükleniyor
-- OLLAMA_MAX_QUEUE : Max istek sayısı
 
 
 
