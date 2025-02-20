@@ -1,10 +1,26 @@
-## gollama
+### gollama
 
-gollama 
-https://github.com/sammcj/gollama
 
-CLI model manager
-can link ollama models to LM-Studio
+[gollama](https://github.com/sammcj/gollama?tab=readme-ov-file#go-install-recommended) kullanabiliriz.
 
-gollama 
-sort by size
+Aşağıdaki komut ile gollama kurunuz
+
+```bash
+go install github.com/sammcj/gollama@HEAD
+```
+
+Modelleri büyüklüğüne sıralayabilir.
+Silebilir.
+
+```bash
+gollama
+```
+
+Aşağıdaki komut ile ollama modellerini lmstudio'ya bağlayabiliriz.
+
+```bash
+gollama -link-lmstudio
+```
+
+
+
