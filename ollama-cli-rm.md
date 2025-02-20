@@ -1,2 +1,15 @@
-## RM Model Silme
+## RM: Model Silme
+
+```bash
+ollama rm model-adi
+```
+
+Örneğin
+
+
+```bash
+ollama rm phi
+```
+
+
 

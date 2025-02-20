@@ -2,7 +2,7 @@
 
 
 ```bash
-ollama stop MODEL
+ollama stop model-adi
 ```
 
 örneğin
