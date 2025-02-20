@@ -1,6 +1,6 @@
-# Ollama Modeller
+# Ollama Modellere giriş
 
-## Modellere giriş
+## Küçük Modeller ile başlama
 
 Modelleri [ollama web sayfasından](https://ollama.com/) arayabiliriz
 Ne yazık ki sıralama özellikleri çok iyi değil.
@@ -8,7 +8,6 @@ Ne yazık ki sıralama özellikleri çok iyi değil.
 Biz öğrenme amaçlı olarak çalıştığımız için bizim için [küçük modeller](https://ollama.com/search?q=small) daha anlamlı olacaktır.
 Hem daha hızlı indirilir hemde hafızada çok yer tutmazlar.
 
-Başlangıç için Microsoft Phi 
 
 Aşağıdaki modeller bu tanıma uyuyor.
 
@@ -30,6 +29,32 @@ ollama run phi
 ```bash
 ollama run deepseek-r1:1.5b
 ```
+
+
+## Model kopyalama
+
+Bu modeli çalıştırırken uzun uzun bu ismi yazmak zor.
+Bu modelin bir takma adını oluşturalım.
+
+
+```bash
+ollama cp deepseek-r1:1.5b ds15
+```
+
+Bu komut model ağırlık dosyalarını kopyalamaz.
+Docker mantığında bir sanal yeni model manifestosu yaratır.
+Ama asıl büyük dosyalar olan ağırlık dosyaları kopyalanmaz.
+
+
+
+
+```bash
+cd $OLLAMA_MODELS
+tree
+du -h
+```
+
+
 
 ## Pull vs Run
 
