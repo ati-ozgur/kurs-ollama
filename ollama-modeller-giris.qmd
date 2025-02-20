@@ -70,11 +70,6 @@ du -h
 - pull modeli kütükten çeker ama çalıştırmaz.
 - run modeli eğer yerelde yoksa kütükten çeker arkasından çalıştırır.
 
-## Run Parametreler
-
---format
---keepalive
-
 
 ## Show Info
 
@@ -85,5 +80,6 @@ du -h
 - parameters          
 - context length      
 - embedding length    
-- quantization        
+- quantization   
+     
 
