@@ -1,0 +1,10 @@
+## List: Modelleri listele
+
+  
+
+```bash
+ollama list  
+```
+
+
+{{< include tables/table-model-list.md >}}

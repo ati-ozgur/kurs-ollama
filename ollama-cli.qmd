@@ -3,7 +3,7 @@
 {{< include tables/table-ollama-cli-commands.md >}}
 
 {{< include  ollama-cli-serve.md >}}
-{{< include  ollama-cli-list.md >}}
+{{< include  ollama-cli-list.qmd >}}
 {{< include  ollama-cli-pull.md >}}
 {{< include  ollama-cli-run.md >}}
 {{< include  ollama-cli-stop.md >}}
