@@ -1,1 +1,2 @@
 ## Stop: Çalışan modeli durdurma
+
