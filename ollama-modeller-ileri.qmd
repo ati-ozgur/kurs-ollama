@@ -2,8 +2,21 @@
 
 ## Model Dizini
 
-Modeller için dizini değiştir
+Normalde modeller aşağıdaki dizinlerde saklanır, bakınız [Ollama FAQ: Where are models stored?](https://github.com/ollama/ollama/blob/main/docs/faq.md#where-are-models-stored)
 
+- macOS: ~/.ollama/models
+- Linux: /usr/share/ollama/.ollama/models
+- Windows: C:\Users\%username%\.ollama\models
+
+
+Modeller için dizin değiştirmek istiyorsanız, OLLAMA_MODELS ortam değişkenini değiştirmeniz gerekiyor.
+Ollama eğer "ollama serve" komutu ile çalışıyorsa başka bir şey yapmanıza gerek yok.
+Ama eğer bir servis olarak çalıştırıyorsanız, servis tanımlarında bu değişkeni vermeniz gereklidir.
+
+
+- mac: launchctl setenv
+- linux: systemctl edit ollama.service
+- windows: sistem ortam değişkenleri (system environment variables)
 
 
 
