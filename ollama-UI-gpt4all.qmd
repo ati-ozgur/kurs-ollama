@@ -1,5 +1,19 @@
 ## gpt4all
 
-- https://github.com/nomic-ai/gpt4all
-- https://gpt4all.io/index.html
-MIT License
+
+
+- [gpt4all github](https://github.com/nomic-ai/gpt4all)
+- [gpt4all sayfası](https://gpt4all.io/index.html)
+
+MIT License olduğu için istediğiniz gibi kullanabilir ve değiştirebilirsiniz.
+
+[Kurulum dosyasını](https://github.com/nomic-ai/gpt4all?tab=readme-ov-file#download-links) işletim sistemine göre indirin.
+
+
+**Linux**
+
+[flatpak](https://flathub.org/apps/io.gpt4all.gpt4all) ilede kurulum yapabilirsiniz.
+
+
+
+
