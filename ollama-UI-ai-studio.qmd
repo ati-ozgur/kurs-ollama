@@ -2,6 +2,7 @@
 
 - [AI Studio github](https://github.com/MindWorkAI/AI-Studio)
 
+.NET uygulaması
 
 [Kurulum dosyasını](https://github.com/MindWorkAI/AI-Studio/blob/main/documentation/Setup.md) işletim sistemine göre indirin.
 
