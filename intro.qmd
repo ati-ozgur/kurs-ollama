@@ -20,3 +20,5 @@ Bu arayüzlerin bir çoğunda ekstra özellikler, örneğin RAG ve web araması,
 
 6. API desteği: JSON Rest API desteği sayesinde her programlama dili ile Ollama kullanılabilir.
 Ayrıca python, javascript ve lang-chain entegrasyonları vardır.
+Ollama ayrıca OpenAI uyumlu bir uç noktası sunmaktadır.
+Bu sayede OpenAI destekleyen kütüphaneler kullanılabilir.
