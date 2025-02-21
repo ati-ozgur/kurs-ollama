@@ -1,7 +1,17 @@
 ## Msty
 
-Açık kaynak değil
+Açık kaynak değil. 
+Bundan dolayı üstüne yazılım geliştirmeye uygun değil.
+Ama 
 
+- bağlantısız ilk, bağlantılı hazır (Offline-First, Online-Ready)
+- RAG
+- Unified Access to Models
+- Ollama Integration
+- Attachments
+- Sohbet dizinleri 
+- Süfle kütüphanesi (prompt library) sunuyor.
 
-- prompt library
+gibi daha bir çok güzel özelliği var.
 
+[msty web sitesi](https://msty.app/) uygulamayı indirin.
