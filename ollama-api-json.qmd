@@ -25,7 +25,7 @@ API sunum noktası varsayılan değerlerde: http://localhost:11434/api uç nokta
 API JSON nesneleri ile çağırılır.
 Çağrılabilecek
 
-```javascript
+```json
 {
 "model": "ds15", 
 "prompt": "What is your name?" 

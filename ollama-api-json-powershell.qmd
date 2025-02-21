@@ -2,14 +2,14 @@
 
 Ollama serve komutu ile arkaplan hizmeti başlatıyoruz.
 
-```bash
+```powershell
 ollama serve
 ```
 
 Başka bir pencerede veya tab'ta powershell açalım.
 Aşağıdaki komut ile ollama'nın çalıştığını kontrol edelim.
 
-```bash
+```powershell
 Invoke-WebRequest http://localhost:11434/
 ```
 
@@ -17,7 +17,7 @@ Ollama çağrılarını yaparken json nesneleri kullanıyoruz.
 En basit çağrımızda model ve süfle (prompt) değerlerini vermemiz gerekir.
 
 
-```javascript
+```json
 {
 "model": "ds15", 
 "prompt": "What is your name?" 
@@ -26,13 +26,13 @@ En basit çağrımızda model ve süfle (prompt) değerlerini vermemiz gerekir.
 
 Aşağıdaki komut ile yukarıdaki json nesnesi ile bir çağrı yapabiliriz.
 
-```bash
+```powershell
 Invoke-WebRequest -method POST -Body '{"model":"ds15", "prompt":"What is your name?"}' -uri http://localhost:11434/api/generate 
 ```
 
 Ama bunun sonucu çok anlamlı olmayacaktır.
 
-```bash
+```powershell
 {{< include komut-sonuclari/powershell-invoke-request-simple.txt >}}
 ```
 
@@ -42,14 +42,14 @@ Sonucu akış değil bir defada almak için ayrıca stream false değerinide gö
 
 
 
-```bash
+```powershell
 (Invoke-WebRequest -method POST -Body '{"model":"ds15", "prompt":"What is your name?", "stream": false}' -uri http://localhost:11434/api/generate ).Content | ConvertFrom-json
 ```
 
 Cevabımız aşağıdaki gibi olacaktır.
 Sizin aldığınız cevap, büyük dil modellerini olasıksal çalışması yüzünden, bundan farklı olabilir.
 
-```bash
+```powershell
 {{< include komut-sonuclari/powershell-invoke-request-simple-answer.txt >}}
 ```
 
