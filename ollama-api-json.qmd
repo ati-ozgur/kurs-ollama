@@ -1,5 +1,11 @@
 # Ollama JSON API
 
+
+{{< include tables/table-ollama-api-endpoints.md >}}
+
+
+
+
 Ollama serve komutu ile arkaplan hizmeti başlatıyoruz
 
 ```bash
