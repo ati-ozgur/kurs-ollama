@@ -15,3 +15,13 @@ Ama
 gibi daha bir çok güzel özelliği var.
 
 [msty web sitesi](https://msty.app/) uygulamayı indirin.
+
+
+Daha başlar başlamaz Ollama modellerini görüyor.
+
+![ekran görüntüsü msty başlangıç](images/screenshot-msty-start.png){width=800}
+
+
+Yüklü ollama modellerinden birini seçerek sohbet yapabilirsiniz.
+
+![ekran görüntüsü msty sohbet](images/screenshot-msty-chat.png){width=800}
