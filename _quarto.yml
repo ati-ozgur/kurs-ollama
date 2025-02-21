@@ -21,6 +21,8 @@ book:
     - ollama-environment-variables.qmd
     - ollama-image.qmd
     - ollama-api-json.qmd
+    - ollama-api-json-curl.qmd
+    - ollama-api-json-powershell.qmd
     - ollama-api-python.qmd
     - ollama-api-javascript.qmd
     - lang-chain.qmd

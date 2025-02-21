@@ -1,4 +1,4 @@
-# Ollama JSON API curl
+# Ollama JSON API Powershell
 
 Ollama serve komutu ile arkaplan hizmeti başlatıyoruz
 
@@ -13,12 +13,11 @@ http://localhost:11434/
 [Ollama API örnek ve dokumantasyonu](https://github.com/ollama/ollama/blob/main/docs/api.md)
 
 
-İlk örnekler için curl komutunu kullanacağız.
-Windows'ta aşağıdaki scoop komutu ile kurabilirsiniz.
-
 ```bash
-scoop install curl
+(Invoke-WebRequest -method POST -Body '{"model":"ds15", "prompt":"What is your name?", "stream": false}' -uri http://localhost:11434/api/generate ).Content | ConvertFrom-json
 ```
+
+
 
 API sunum noktası varsayılan değerlerde: http://localhost:11434/api uç noktasıdır.
 

@@ -25,7 +25,13 @@ ollama create sohbet -f ./modelfiles/ModelfileDeepseek1.txt
 hugging face gguf
 use this model ollama
 
+
+
 https://github.com/ollama/ollama/blob/main/docs/import.md
+
+- safe tensors
+- gguf
+
 
 quantization here also
 
