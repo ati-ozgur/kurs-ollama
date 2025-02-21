@@ -2,16 +2,16 @@
 
 Ollama UI listesinin başında olan bu araçın özellikleri oldukça fazladır.
 
-- Ollama/OpenAI API Integration
-- Granular Permissions and User Groups
-- Responsive Design
-- Progressive Web App (PWA) for Mobile
-- Full Markdown and LaTeX Support
-- Native Python Function Calling Tool
-- Local RAG Integration
-- Web Search for RAG
-- Web Browsing Capability
-- Image Generation Integration (Local ComfyUI)
+- Ollama/OpenAI API Entegrasyonu
+- İzinler ve Kullanıcı Grupları
+- Duyarlı Tasarım (Responsive Design)
+- Mobil için İlerici Web Uygulaması (PWA)
+- Tam Markdown ve LaTeX Desteği
+- Yerel Python Fonksiyon Çağrı Aracı
+- Yerel RAG Entegrasyonu
+- RAG için Web Araması
+- Web Tarama Yeteneği
+- Görüntü Oluşturma Entegrasyonu (Yerel ComfyUI)
 
 
 ![open webui ekran görüntüsü](images/screenshot-open-webui.png){width=800}
@@ -64,14 +64,24 @@ Bu kullanımda çok fazla dosya indiriliyor ve docker kullanımından daha zor.
 
 ### Docker Open webui kullanımı
 
+
 [NVDIA container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) kurmam gerekti.
 
+Kendi web sitesinde aşağıdaki komut ile çalıştırmamız tavsiye ediliyor.
 
-Arkasından aşağıdaki komut ile çalıştırabiliyoruz.
+```bash
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
+
+Ama ben bu komutta sorun yaşadım.
+
+
+
+Bunun yerine aşağıdaki komut ile çalıştırabildim.
 
 
 ```bash
-docker run --detach --gpus all --net=host -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda 
+docker run --detach --gpus all --net=host -v open-webui:/app/backend/data --name open-webui --restart always -e PORT=8081 ghcr.io/open-webui/open-webui:cuda 
 ```
 
 Komut açıklaması
@@ -81,6 +91,7 @@ Komut açıklaması
 - Bu sayede ollama'ya erişim yapabiliyoruz.
 - -v volume ataması yapıyor 
 - bu sayede docker stop, run yapılsa bile veriler saklanıyor.
+- -e PORT=8081 çalıştığı port numarası değiştirmek için
 
 
 **Demo**
@@ -90,9 +101,9 @@ Komut açıklaması
 3. Model seçme
 4. chat
 5. chat rename
-4. dokuman upload
-5. resim ekle
-
+6. dokuman upload
+7. resim ekle
+8. Karşılaştırmalı chat
 
 ### Open webui için diğer öğreticiler
 
