@@ -1,5 +1,10 @@
 ## AI-Studio
 
-https://github.com/MindWorkAI/AI-Studio
-MIT License
+- [AI Studio github](https://github.com/MindWorkAI/AI-Studio)
+
+
+[Kurulum dosyasını](https://github.com/MindWorkAI/AI-Studio/blob/main/documentation/Setup.md) işletim sistemine göre indirin.
+
+
+MIT License olduğu için istediğiniz gibi kullanabilir ve değiştirebilirsiniz.
 
