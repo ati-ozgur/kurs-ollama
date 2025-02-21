@@ -1,28 +1,21 @@
 # Ollama JSON API Powershell
 
-Ollama serve komutu ile arkaplan hizmeti başlatıyoruz
+Ollama serve komutu ile arkaplan hizmeti başlatıyoruz.
 
 ```bash
 ollama serve
 ```
 
-http://localhost:11434/
-
-
-
-[Ollama API örnek ve dokumantasyonu](https://github.com/ollama/ollama/blob/main/docs/api.md)
-
+Başka bir pencerede veya tab'ta powershell açalım.
+Aşağıdaki komut ile ollama'nın çalıştığını kontrol edelim.
 
 ```bash
-(Invoke-WebRequest -method POST -Body '{"model":"ds15", "prompt":"What is your name?", "stream": false}' -uri http://localhost:11434/api/generate ).Content | ConvertFrom-json
+Invoke-WebRequest http://localhost:11434/
 ```
 
+Ollama çağrılarını yaparken json nesneleri kullanıyoruz.
+En basit çağrımızda model ve süfle (prompt) değerlerini vermemiz gerekir.
 
-
-API sunum noktası varsayılan değerlerde: http://localhost:11434/api uç noktasıdır.
-
-API JSON nesneleri ile çağırılır.
-Çağrılabilecek
 
 ```javascript
 {
@@ -31,33 +24,33 @@ API JSON nesneleri ile çağırılır.
 } 
 ```
 
+Aşağıdaki komut ile yukarıdaki json nesnesi ile bir çağrı yapabiliriz.
 
-En basit çağrıda sonuçlar bir akış (stream) olarak döndürülür.
+```bash
+Invoke-WebRequest -method POST -Body '{"model":"ds15", "prompt":"What is your name?"}' -uri http://localhost:11434/api/generate 
+```
+
+Ama bunun sonucu çok anlamlı olmayacaktır.
+
+```bash
+{{< include komut-sonuclari/powershell-invoke-request-simple.txt >}}
+```
+
+Bizim bu isteğe gelen cevabın içeriğini (Content) almamız gerekiyor.
+Arkasından bunu json'dan çevirelim.
+Sonucu akış değil bir defada almak için ayrıca stream false değerinide gönderelim.
+
 
 
 ```bash
-curl http://localhost:11434/api/generate -d '{"model": "ds15", "prompt": "What is your name?" } '
+(Invoke-WebRequest -method POST -Body '{"model":"ds15", "prompt":"What is your name?", "stream": false}' -uri http://localhost:11434/api/generate ).Content | ConvertFrom-json
 ```
 
-Daha kolay olması için stream false ile çağıralım.
+Cevabımız aşağıdaki gibi olacaktır.
+Sizin aldığınız cevap, büyük dil modellerini olasıksal çalışması yüzünden, bundan farklı olabilir.
 
 ```bash
-curl http://localhost:11434/api/generate -d '{"model": "ds15", "prompt": "What is your name?", "stream": false } '
+{{< include komut-sonuclari/powershell-invoke-request-simple-answer.txt >}}
 ```
 
 
-```bash
-curl http://localhost:11434/api/chat -d '{"model": "ds15", "prompt": "What is your name?", "stream": false } '
-```
-
-**context length değiştirme**
-
-```bash
-curl http://localhost:11434/api/generate -d '{
-  "model": "ds15",
-  "prompt": "Why is the sky blue?",
-  "options": {
-    "num_ctx": 4096
-  }
-}'
-```

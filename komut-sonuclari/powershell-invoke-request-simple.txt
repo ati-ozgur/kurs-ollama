@@ -1,0 +1,14 @@
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {123, 34, 109, 111…}
+RawContent        : HTTP/1.1 200 OK
+                    Date: Fri, 21 Feb 2025 20:03:21 GMT
+                    Transfer-Encoding: chunked
+                    Content-Type: application/x-ndjson
+                    
+                    {"model":"ds15","created_at":"2025-02-21T20:03:21.095015583Z","response":"\u003cthink…
+Headers           : {[Date, System.String[]], [Transfer-Encoding, System.String[]], [Content-Type, System.String[]]}
+RawContentLength  : 4595
+RelationLink      : {}
+
