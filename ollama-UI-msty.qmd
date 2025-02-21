@@ -6,9 +6,9 @@ Ama
 
 - bağlantısız ilk, bağlantılı hazır (Offline-First, Online-Ready)
 - RAG
-- Unified Access to Models
-- Ollama Integration
-- Attachments
+- Farklı LLM sohbetlerini karşılaştırma
+- Ollama entegrasyonu
+- Dosya ekleme
 - Sohbet dizinleri 
 - Süfle kütüphanesi (prompt library) sunuyor.
 

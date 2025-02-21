@@ -7,10 +7,11 @@
 
 {{< include ollama-UI-lm-studio.qmd >}}
 {{< include ollama-UI-gpt4all.qmd >}}
+{{< include ollama-UI-msty.qmd >}}
+
 
 {{< include ollama-UI-ai-studio.qmd >}}
 {{< include ollama-UI-chat-ollama.qmd >}}
-{{< include ollama-UI-msty.qmd >}}
 
 
 
