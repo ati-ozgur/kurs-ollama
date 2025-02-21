@@ -21,10 +21,10 @@ Normalde kendi modellerini çok kolay bir şekilde indirebiliyorsunuz.
 Ama ollama ile kullanmak için Open AI compatible model olarak eklemeniz gerekli.
 
 
-![ekran görüntüsü gpt4all openai model](images/screnshot-gpt4all-openai-model.png){width=800}
+![ekran görüntüsü gpt4all openai model](images/screenshot-gpt4all-openai-model.png){width=800}
 
 
-![ekran görüntüsü gpt4all chat with ollama](images/screnshot-gpt4all-chat.png){width=800}
+![ekran görüntüsü gpt4all chat with ollama](images/screenshot-gpt4all-chat.png){width=800}
 
 Normal kullanımı kolay olabilir ama ollama entegrasyonu zor.
 Birden fazla model ekleyemedim.

@@ -1,8 +1,27 @@
 ## Ollama UI
 
+[Ollama UI github](https://github.com/ollama-ui/ollama-ui/tree/main)
 
-Basit ollama ui
-https://github.com/ollama-ui/ollama-ui/tree/main
+Basit ollama ui'dır.
+Aynı zamanda google chrome extension olarak çalışıyor.
+Projenin bulunduğu dizinde web server çalıştırmak gerekiyor.
+Aşağıdaki make komutu kullandığı bootstrap gibi 4-5 js/css dosyasını indiriyor.
+Projeye'de bence eklenebilirmiş.
 
 
-Buna benzeyen bir şeyi VanillaJS ile yapılabilir.
+```bash
+git clone https://github.com/ollama-ui/ollama-ui
+cd ollama-ui
+make
+```
+
+
+tarayıcıda http://localhost:8000 açınız.
+
+
+
+![ekran görüntüsü ollama UI](images/screenshot-ollama-ui.png){width=800}
+
+
+
+Buna benzeyen bir şeyin, Vanilla JS, react, angular ile  yapılması öğrenciler için güzel bir front end demo projesi olur.
