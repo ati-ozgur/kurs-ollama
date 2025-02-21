@@ -1,2 +1,22 @@
 # Giriş
 
+Ollama, yazılım geliştirme çeşitli avantajlar sunar:
+
+1. Yerel çalışma: süfleleriniz (prompt) harici sunuculara gönderme ihtiyacını ortadan kaldırır.
+Bu sayede gizliliği ve güvenliği artırarak doğrudan yerel makinenizde güçlü büyük dil modelleri (LLM'ler) çalıştırmanıza olanak tanır.
+
+
+2. Kullanım kolaylığı: Basit bir komut satırı arayüzü ile Ollama, karmaşık kurulum süreçleri olmadan farklı AI modellerini indirmeyi, çalıştırmayı ve bunlar arasında geçiş yapmayı kolaylaştırır.
+
+3. UI entegrasyonları, 110'dan fazla grafik arayüzü Ollama ile çalışmaktadır.
+Bu arayüzlerin bir çoğunda ekstra özellikler, örneğin RAG ve web araması, desteklenmektedir.
+
+
+4. Maliyet etkinliği: Ücretsiz ve açık kaynaklı olan Ollama, abonelik ücreti veya kullanım maliyeti olmadan güçlü yapay zeka yeteneklerine erişim sağlar
+
+
+5. Özelleştirme: Geliştiriciler kendi modellerini eğitebilir (fine tune) veya özel GGUF modelleri kullanabilir.
+
+
+6. API desteği: JSON Rest API desteği sayesinde her programlama dili ile Ollama kullanılabilir.
+Ayrıca python, javascript ve lang-chain entegrasyonları vardır.
