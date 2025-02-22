@@ -1,5 +1,5 @@
 ```{mermaid}
-%%| fig-width: 2
+%%| fig-width: 4
 flowchart LR
     O[Ollama] --> C(CLI Komut Satırı)
     O --> UI(UI)
