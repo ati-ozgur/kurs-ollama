@@ -1,0 +1,4 @@
+# Ollama Araç Destegi
+
+
+- [Ollama Blog Araç Desteği](https://ollama.com/blog/tool-support)

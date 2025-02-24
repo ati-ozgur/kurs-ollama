@@ -28,6 +28,7 @@ book:
     - lang-chain.qmd
     - hugging-face.qmd
     - ollama-modelfile.qmd
+    - ollama-arac-destegi.qmd
     - RAG-system.qmd
     - fine-tuning.qmd
     - prompting.qmd
