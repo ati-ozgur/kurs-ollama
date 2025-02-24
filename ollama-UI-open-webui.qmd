@@ -81,7 +81,7 @@ Bunun yerine aşağıdaki komut ile çalıştırabildim.
 
 
 ```bash
-docker run --detach --gpus all --net=host -v open-webui:/app/backend/data --name open-webui --restart always -e PORT=8081 ghcr.io/open-webui/open-webui:cuda 
+docker run --detach --gpus all --net=host -v open-webui:/app/backend/data --name open-webui  -e PORT=8081 ghcr.io/open-webui/open-webui:cuda 
 ```
 
 Komut açıklaması
@@ -93,6 +93,9 @@ Komut açıklaması
 - bu sayede docker stop, run yapılsa bile veriler saklanıyor.
 - -e PORT=8081 çalıştığı port numarası değiştirmek için
 
+Eğer bilgisayarınız tekrar başladığında open webui çalışmasını istiyorsanız aşağıdaki argumanı ekleyin. 
+
+- --restart always  
 
 **Demo**
 
