@@ -21,5 +21,8 @@ https://ollama.com/blog/structured-outputs
 
 ## Diğer öğreticiler
 
-- https://youtu.be/ljQ0i-F34a4
+
+- [Ollama Structured Output: REVOLUTIONISING AI API Backends!](https://www.youtube.com/watch?v=7T7Nv5RMZqs)
+- [Ollama Structured Outputs in 5 Minutes](https://www.youtube.com/watch?v=KXQU3mJTvuw)
+- [The Truth About Ollama's Structured Outputs](https://youtu.be/ljQ0i-F34a4)
 
