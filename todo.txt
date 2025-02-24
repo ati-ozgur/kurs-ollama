@@ -1,5 +1,15 @@
 todo.txt
 
+https://www.continue.dev/
+
+open-source AI code assistant
+https://ollama.com/blog/continue-code-assistant
+
+https://docs.continue.dev/autocomplete/model-setup
+https://ollama.com/library/qwen2.5-coder
+
+You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
+
 
 AutoGen
 A framework for building AI agents and applications
@@ -7,3 +17,12 @@ https://microsoft.github.io/autogen/stable/index.html
 https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/tutorial/models.html
 
 support Ollama
+
+
+
+## Blog posts to look later
+
+- <https://ollama.com/blog/run-llama2-uncensored-locally>
+- <https://ollama.com/blog/run-code-llama-locally>
+- <https://ollama.com/blog/how-to-prompt-code-llama>
+- <https://ollama.com/blog/llms-in-obsidian>
