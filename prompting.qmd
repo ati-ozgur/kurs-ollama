@@ -6,9 +6,15 @@ Sonuçta teknikleri öğrenince göreceksiniz ki çoğunluğu sağduyu aslında.
 
 ## Sıfır atış (Zero shot)
 
+Bu en basit süfle olarak ne istediğimizi uzatmadan yazmak ve sormaktır.
+Sıfır atış denmesinin sebebi 0 örnek verilmesidir.
+Özellikle yaygın ve iyi bilinen konularda aldığımız cevaplar yeterince iyidir.
+
+
 
 
 ## Örneklerle süfle (Few shot)
+
 
 
 ```text
