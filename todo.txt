@@ -1,5 +1,8 @@
 todo.txt
 
+https://github.com/openai/openai-cookbook/tree/main
+
+
 https://ollama.com/blog/tool-support
 
 https://www.continue.dev/

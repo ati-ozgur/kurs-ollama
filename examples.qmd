@@ -46,6 +46,9 @@ daha fazla bilgi için [Bölüm -@sec-temeller-aciklamalar] bakınız.
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 ```
 
+> [!NOTE]
+> You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
+
 :::{.callout-tip}
 import komutuna neden ihtiyacımız olduğu hakkında daha fazla bilgi için [Bölüm -@sec-temeller-import] okuyabilirsiniz.
 :::

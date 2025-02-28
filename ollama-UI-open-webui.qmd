@@ -99,15 +99,19 @@ Komut açıklaması
 - -e WEBUI_AUTH=false Bu argumanı vererek kullanıcı oluşturmayı engelliyorum.
 Eğer bu ortam değişkeni olmazsa ilk açılışta bir kullanıcı oluşturup her seferinde bilgilerini girmeniz gerekiyor.
 
+
+
+
+
 Eğer bilgisayarınız tekrar başladığında open webui çalışmasını istiyorsanız aşağıdaki argumanı ekleyin. 
 
 - --restart always  
 
 
 
+
 ```bash
-docker exec -it --name open-webui bash
-docker run --detach --gpus all --network=host -v open-webui:/app/backend/data --name open-webui  -e PORT=8081 -e WEBUI_AUTH=false ghcr.io/open-webui/open-webui:cuda 
+docker run --detach --network=host -v open-webui:/app/backend/data --name open-webui  -e PORT=8081 -e WEBUI_AUTH=false ghcr.io/open-webui/open-webui:cuda 
 ```
 
 İlk çalıştırdığımızda, ollama bağlantısıını düzeltmemiz gerekiyor.
@@ -127,6 +131,25 @@ Eğer ilk verdiğim komut ile open-webui çalıştıysa bu bağlantı değişikl
 
 ![Open webui özellikler: Bağlantılar](images/screenshot-open-webui-settings-connections.png){width=800}
 
+Eğer bu değişikliği yaptıktan sonra hala Ollama modellerinizi göremiyorsanız.
+Aşağıdaki komut ile docker container bash açınız.
+
+```bash
+docker exec -it --name open-webui bash
+```
+
+Burada aşağıdaki komutu çalıştırınız.
+
+```bash
+curl http://localhost:11434
+```
+
+sonuç olarak aşağıdaki gibi Ollama'nın çalıştığını görmeniz gerekir.
+
+>Ollama is running
+
+Eğer görmüyorsanız, ya Ollama'yı ollama serve ile çalıştırmayı unuttunuz yada docker localhost'a ulaşmıyor.
+
 
 
 
@@ -140,6 +163,10 @@ Eğer ilk verdiğim komut ile open-webui çalıştıysa bu bağlantı değişikl
 6. dokuman upload
 7. resim ekle
 8. Karşılaştırmalı chat
+9. değerlendirmeleri göster
+
+
+
 
 ### Open webui için diğer öğreticiler
 
