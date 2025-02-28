@@ -1,5 +1,6 @@
 # Prompting Süfle verme
 
+Sonuçta teknikleri öğrenince göreceksiniz ki çoğunluğu sağduyu aslında.
 
 
 
@@ -24,15 +25,22 @@ Giriş: 7 Nisan 2024
 ```
 
 
+## Geri Adım Sorusu (Step back question)
+
+https://arxiv.org/abs/2310.06117
+
 ## Düşünce zinciri (chain of thought)
 
 - adım adım düşünelim
 - önce tüm alt problemleri düşünelim
 
+
+
 ## Tree of Thought
 
 
-Sonuçta teknikleri öğrenince göreceksiniz ki çoğunluğu sağduyu aslında.
+## Meta prompting
+
 
 
 ## Rol süfle
@@ -41,3 +49,26 @@ Sonuçta teknikleri öğrenince göreceksiniz ki çoğunluğu sağduyu aslında.
 - Persona
 
 act as senior developer
+
+
+## 
+
+Goal
+return format
+warnings
+context
+
+
+https://platform.openai.com/docs/guides/prompt-engineering
+
+
+google 5 step framework
+
+1. task
+	persona
+	output, specify format
+2. context
+3. references
+	examples
+4. evaluation
+5. iterate
