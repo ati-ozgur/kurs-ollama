@@ -81,21 +81,54 @@ Bunun yerine aşağıdaki komut ile çalıştırabildim.
 
 
 ```bash
-docker run --detach --gpus all --net=host -v open-webui:/app/backend/data --name open-webui  -e PORT=8081 ghcr.io/open-webui/open-webui:cuda 
+docker run --detach --gpus all --network=host -v open-webui:/app/backend/data --name open-webui  -e PORT=8081 -e WEBUI_AUTH=false ghcr.io/open-webui/open-webui:cuda 
 ```
+
+
+
 
 Komut açıklaması
 
 - --detach arka planda çalıştır
-- --net=host , çalıştığı makine ile ağ paylaşımı. 
+- --gpus all gpu kullanımına izin ver
+- --network=host , çalıştığı makine ile ağ paylaşımı. 
 - Bu sayede ollama'ya erişim yapabiliyoruz.
 - -v volume ataması yapıyor 
 - bu sayede docker stop, run yapılsa bile veriler saklanıyor.
 - -e PORT=8081 çalıştığı port numarası değiştirmek için
+- -e WEBUI_AUTH=false Bu argumanı vererek kullanıcı oluşturmayı engelliyorum.
+Eğer bu ortam değişkeni olmazsa ilk açılışta bir kullanıcı oluşturup her seferinde bilgilerini girmeniz gerekiyor.
 
 Eğer bilgisayarınız tekrar başladığında open webui çalışmasını istiyorsanız aşağıdaki argumanı ekleyin. 
 
 - --restart always  
+
+
+
+```bash
+docker exec -it --name open-webui bash
+docker run --detach --gpus all --network=host -v open-webui:/app/backend/data --name open-webui  -e PORT=8081 -e WEBUI_AUTH=false ghcr.io/open-webui/open-webui:cuda 
+```
+
+İlk çalıştırdığımızda, ollama bağlantısıını düzeltmemiz gerekiyor.
+Sağdaki menüden settings, admin settings seçiniz.
+Arkasından connections üzerinde 
+
+- http://host.docker.internal:11434
+
+değerini
+
+- http://localhost:11434
+
+
+yapınız.
+Eğer ilk verdiğim komut ile open-webui çalıştıysa bu bağlantı değişikliğini yapmanıza gerek yoktur.
+
+
+![Open webui özellikler: Bağlantılar](images/screenshot-open-webui-settings-connections.png){width=800}
+
+
+
 
 **Demo**
 
