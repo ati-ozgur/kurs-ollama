@@ -1,5 +1,7 @@
 todo.txt
 
+https://ollama.com/blog/tool-support
+
 https://www.continue.dev/
 
 open-source AI code assistant
