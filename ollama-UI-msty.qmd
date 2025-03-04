@@ -25,3 +25,25 @@ Daha başlar başlamaz Ollama modellerini görüyor.
 Yüklü ollama modellerinden birini seçerek sohbet yapabilirsiniz.
 
 ![ekran görüntüsü msty sohbet](images/screenshot-msty-chat.png){width=800}
+
+**Demo**
+
+01. Ollama ile sohbet
+02. Sonuçlarda ayrı sohbet ile bilgi alma
+03. Ayrı modelleri karşılaştırma
+04. Görselleştirme (Visualizing Branches)
+05. Sohbet dizinleri
+06. Süfle kütüphanesi
+07. RAG: Knowledge stacks
+08. Tek dokuman ile konuşma
+09. Web araması
+10. Uzak modeller (Remote Models)
+
+
+
+### Msty için diğer öğreticiler
+
+- [MSTY Makes Ollama Better](https://www.youtube.com/watch?v=5U_lOjfZiXg)
+
+
+
