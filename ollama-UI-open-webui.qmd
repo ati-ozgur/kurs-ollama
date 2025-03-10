@@ -114,6 +114,10 @@ Eğer bilgisayarınız tekrar başladığında open webui çalışmasını istiy
 docker run --detach --network=host -v open-webui:/app/backend/data --name open-webui  -e PORT=8081 -e WEBUI_AUTH=false ghcr.io/open-webui/open-webui:cuda 
 ```
 
+OLLAMA_BASE_URLS
+ENABLE_OLLAMA_API
+
+
 İlk çalıştırdığımızda, ollama bağlantısıını düzeltmemiz gerekiyor.
 Sağdaki menüden settings, admin settings seçiniz.
 Arkasından connections üzerinde 
