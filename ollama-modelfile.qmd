@@ -37,4 +37,5 @@ quantization here also
 
 ## Diğer öğreticiler
 
-- https://youtu.be/6PaKj291r8s
+- [Matt Williams: The Path To Better Custom Models](https://youtu.be/6PaKj291r8s)
+- [Matt Williams: Design Your Own Ollama Model Now!](https://www.youtube.com/watch?v=bXf2Cxf3Wk0)

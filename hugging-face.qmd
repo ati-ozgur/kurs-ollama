@@ -32,3 +32,4 @@ https://gcptutorials.com/post/run-hugging-face-models-locally-with-ollama-step-b
 
 - [Unlock the Power of AI with Ollama and Hugging Face](https://www.youtube.com/watch?v=LQJVz-B_mZI)
 
+- [Importing Open Source Models to Ollama](https://www.youtube.com/watch?v=fnvZJU5Fj3Q)

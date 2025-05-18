@@ -2,3 +2,11 @@
 
 
 
+## Open Web-UI RAG Tutorials
+
+- [RAG with Open WebUI-Guide, Tips, and Demo](https://www.youtube.com/watch?v=W0nAZiFMnYw)
+
+
+## RAG Tutorials Python + Ollama
+
+- [Local RAG Tutorial (Ollama) + python Code](https://www.youtube.com/watch?v=Oe-7dGDyzPM)

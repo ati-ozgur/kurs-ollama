@@ -27,6 +27,9 @@ https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/tutor
 support Ollama
 
 
+OpenUI
+https://www.kdnuggets.com/from-idea-to-ui-in-seconds-meet-openui
+
 
 ## Blog posts to look later
 
@@ -34,3 +37,19 @@ support Ollama
 - <https://ollama.com/blog/run-code-llama-locally>
 - <https://ollama.com/blog/how-to-prompt-code-llama>
 - <https://ollama.com/blog/llms-in-obsidian>
+
+
+### continue-code-assistant
+
+https://ollama.com/blog/continue-code-assistant
+https://github.com/continuedev/continue
+https://docs.continue.dev/
+https://marketplace.visualstudio.com/items?itemName=Continue.continue&ssr=false#review-details
+https://docs.continue.dev/chat/context-selection
+https://docs.continue.dev/customize/deep-dives/slash-commands
+
+### Other interesting
+
+https://ollama.com/blog/minions
+https://github.com/HazyResearch/minions
+https://arxiv.org/abs/2502.15964
